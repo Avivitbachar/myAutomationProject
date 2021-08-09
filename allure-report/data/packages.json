@@ -1,0 +1,113 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "sanity.GrafanaWeb",
+    "children" : [ {
+      "name" : "test01_verifyHeader",
+      "uid" : "b4c438b251c8d6aa",
+      "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628523220881,
+        "stop" : 1628523226669,
+        "duration" : 5788
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test02_verifyDefaultUsers",
+      "uid" : "570c8103411c9e07",
+      "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628523227107,
+        "stop" : 1628523228896,
+        "duration" : 1789
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test03_verifyNewUser",
+      "uid" : "d59bfe7c590e7947",
+      "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628523229110,
+        "stop" : 1628523232072,
+        "duration" : 2962
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test04_verifyNewUserDeletion",
+      "uid" : "2067fc29ebc2a7fa",
+      "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628523232410,
+        "stop" : 1628523235978,
+        "duration" : 3568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test05_verifyProgressStep",
+      "uid" : "a8f70173a7a85663",
+      "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628523236221,
+        "stop" : 1628523236593,
+        "duration" : 372
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test07_SearchUsers",
+      "uid" : "710fbbf89ab901a6",
+      "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628523236844,
+        "stop" : 1628523251561,
+        "duration" : 14717
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web", "Avivit ", "not-exists" ]
+    }, {
+      "name" : "test07_SearchUsers",
+      "uid" : "85e6ce53207d2ffa",
+      "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628523251838,
+        "stop" : 1628523255712,
+        "duration" : 3874
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web", "admin ", "exists" ]
+    }, {
+      "name" : "test07_SearchUsers",
+      "uid" : "f23ba550f68ae40e",
+      "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628523256016,
+        "stop" : 1628523269811,
+        "duration" : 13795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web", "david ", "not-exists" ]
+    } ],
+    "uid" : "sanity.GrafanaWeb"
+  } ],
+  "name" : "packages"
+}

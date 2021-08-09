@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!---Timeout-->
+    <Timeout>5</Timeout>
+
+    <!--General-->
+   <!-- <PlatformName>web</PlatformName>-->
+
+    <!--Authorization -->
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+
+    <!--Web-->
+
+    <BrowserName>chrome</BrowserName>
+    <url>http://localhost:3000/</url>
+    <ImageRepo>//Users//avivitbachar//Documents//Autumation Project 2//ImageRepository//</ImageRepo>
+
+    <!--Data Driven Testing -->
+    <DDTFile>DDTFiles/users.csv</DDTFile>
+
+    <UDID>RFCR30FP1WX</UDID>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <AppiumServer>http://localhost:4724/wd/hub</AppiumServer>
+
+    <!--API -->
+    <urlAPI>http://localhost:3000/</urlAPI>
+
+    <!--Database -->
+    <DBURL>jdbc:mysql://remotemysql.com:3306/Rcr5W5Ntx3</DBURL>
+    <DBUserName>Rcr5W5Ntx3</DBUserName>
+    <DBPassword>Hnq9mR6ylq</DBPassword>
+
+</Environment>

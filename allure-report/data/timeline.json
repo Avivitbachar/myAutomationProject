@@ -1,0 +1,225 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Avivits-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "29920@Avivits-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Test07 - Search Users",
+        "uid" : "f23ba550f68ae40e",
+        "parentUid" : "d209b72d1ea064b9e2e8dae1366125ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523256016,
+          "stop" : 1628523269811,
+          "duration" : 13795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "david ", "not-exists" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "710fbbf89ab901a6",
+        "parentUid" : "d209b72d1ea064b9e2e8dae1366125ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523236844,
+          "stop" : 1628523251561,
+          "duration" : 14717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "Avivit ", "not-exists" ]
+      }, {
+        "name" : "Test04 - Verify User Deletion",
+        "uid" : "2067fc29ebc2a7fa",
+        "parentUid" : "d209b72d1ea064b9e2e8dae1366125ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523232410,
+          "stop" : 1628523235978,
+          "duration" : 3568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01 - Verify Header",
+        "uid" : "b4c438b251c8d6aa",
+        "parentUid" : "d209b72d1ea064b9e2e8dae1366125ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523220881,
+          "stop" : 1628523226669,
+          "duration" : 5788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02 - Verify Default Users",
+        "uid" : "570c8103411c9e07",
+        "parentUid" : "d209b72d1ea064b9e2e8dae1366125ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628523227107,
+          "stop" : 1628523228896,
+          "duration" : 1789
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "85e6ce53207d2ffa",
+        "parentUid" : "d209b72d1ea064b9e2e8dae1366125ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523251838,
+          "stop" : 1628523255712,
+          "duration" : 3874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "admin ", "exists" ]
+      }, {
+        "name" : "Test05 - Verify Progress Steps",
+        "uid" : "a8f70173a7a85663",
+        "parentUid" : "d209b72d1ea064b9e2e8dae1366125ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523236221,
+          "stop" : 1628523236593,
+          "duration" : 372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03 - Verify New User",
+        "uid" : "d59bfe7c590e7947",
+        "parentUid" : "d209b72d1ea064b9e2e8dae1366125ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523229110,
+          "stop" : 1628523232072,
+          "duration" : 2962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "d209b72d1ea064b9e2e8dae1366125ce"
+    }, {
+      "name" : "29770@Avivits-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Test03 - Verify New User",
+        "uid" : "2ad8961e6962025f",
+        "parentUid" : "96253d875a78698f66bd37d546cf2443",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628522984892,
+          "stop" : 1628522987652,
+          "duration" : 2760
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "a63a913508f3369c",
+        "parentUid" : "96253d875a78698f66bd37d546cf2443",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523007214,
+          "stop" : 1628523011042,
+          "duration" : 3828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "admin ", "exists" ]
+      }, {
+        "name" : "Test01 - Verify Header",
+        "uid" : "bc765735b92f11a8",
+        "parentUid" : "96253d875a78698f66bd37d546cf2443",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628522976840,
+          "stop" : 1628522982784,
+          "duration" : 5944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04 - Verify User Deletion",
+        "uid" : "81a2127f28221aca",
+        "parentUid" : "96253d875a78698f66bd37d546cf2443",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628522987957,
+          "stop" : 1628522991442,
+          "duration" : 3485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05 - Verify Progress Steps",
+        "uid" : "bb98ace30a8370e2",
+        "parentUid" : "96253d875a78698f66bd37d546cf2443",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628522991759,
+          "stop" : 1628522992109,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "b823d05487a30403",
+        "parentUid" : "96253d875a78698f66bd37d546cf2443",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628522992360,
+          "stop" : 1628523006902,
+          "duration" : 14542
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "Avivit ", "not-exists" ]
+      }, {
+        "name" : "Test07 - Search Users",
+        "uid" : "f13cef2e325f4c23",
+        "parentUid" : "96253d875a78698f66bd37d546cf2443",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628523011299,
+          "stop" : 1628523025284,
+          "duration" : 13985
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "david ", "not-exists" ]
+      }, {
+        "name" : "Test02 - Verify Default Users",
+        "uid" : "e64f444b507eb7d9",
+        "parentUid" : "96253d875a78698f66bd37d546cf2443",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628522983238,
+          "stop" : 1628522984524,
+          "duration" : 1286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "96253d875a78698f66bd37d546cf2443"
+    } ],
+    "uid" : "f3649023ccd9e6c0545e0b5486a641c3"
+  } ],
+  "name" : "timeline"
+}

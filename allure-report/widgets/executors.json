@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:9090/",
+  "buildOrder" : 5,
+  "buildName" : "Sanity Tests API #5",
+  "buildUrl" : "http://localhost:9090/job/Sanity%20Tests%20API/5/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20API/5/allure"
+} ]
